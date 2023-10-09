@@ -25,14 +25,14 @@ const number5 = document.getElementById("number5");
 const number6 = document.getElementById("number6");
 const number7 = document.getElementById("number7");
 const number8 = document.getElementById("number8");
-const head1 = document.getElementsById("head1");
-const head2 = document.getElementsById("head2");
-const head3 = document.getElementsById("head3");
-const head4 = document.getElementsById("head4");
-const head5 = document.getElementsById("head5");
-const head6 = document.getElementsById("head6");
-const head7 = document.getElementsById("head7");
-const head8 = document.getElementsById("head8");
+const head1 = document.getElementById("head1");
+const head2 = document.getElementById("head2");
+const head3 = document.getElementById("head3");
+const head4 = document.getElementById("head4");
+const head5 = document.getElementById("head5");
+const head6 = document.getElementById("head6");
+const head7 = document.getElementById("head7");
+const head8 = document.getElementById("head8");
 
 
 mySwitch.addEventListener("change", function() {
