@@ -138,6 +138,7 @@ header section .dark {
   flex-direction: column;
   width: 70%;
   margin: 0 auto;
+  background: transparent;
 }
 .section-two h2 {
   color: #8b97c6;
@@ -165,6 +166,7 @@ header section .dark {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 .section-two .reaction-section .bridge div section .number {
   font-size: 20px;
@@ -180,6 +182,7 @@ header section .dark {
   align-items: center;
   gap: 4px;
   flex-direction: row;
+  background-color: transparent;
 }
 
 * {
@@ -190,4 +193,5 @@ header section .dark {
 
 body {
   background-color: #ffffff;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=styles.css.map */

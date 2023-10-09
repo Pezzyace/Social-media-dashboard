@@ -13,11 +13,27 @@ const bridge1 = document.getElementById("bridge1");
 const bridge2 = document.getElementById("bridge2");
 const bridge3 = document.getElementById("bridge3");
 const bridge4 = document.getElementById("bridge4");
-const number = document.getElementById("number");
 const bridge5 = document.getElementById("bridge5");
 const bridge6 = document.getElementById("bridge6");
 const bridge7 = document.getElementById("bridge7");
 const bridge8 = document.getElementById("bridge8");
+const number1 = document.getElementById("number1");
+const number2 = document.getElementById("number2");
+const number3 = document.getElementById("number3");
+const number4 = document.getElementById("number4");
+const number5 = document.getElementById("number5");
+const number6 = document.getElementById("number6");
+const number7 = document.getElementById("number7");
+const number8 = document.getElementById("number8");
+const head1 = document.getElementsById("head1");
+const head2 = document.getElementsById("head2");
+const head3 = document.getElementsById("head3");
+const head4 = document.getElementsById("head4");
+const head5 = document.getElementsById("head5");
+const head6 = document.getElementsById("head6");
+const head7 = document.getElementsById("head7");
+const head8 = document.getElementsById("head8");
+
 
 mySwitch.addEventListener("change", function() {
   if (this.checked) {
@@ -43,7 +59,22 @@ mySwitch.addEventListener("change", function() {
     bridge6.style.backgroundColor = "#252a41";
     bridge7.style.backgroundColor = "#252a41";
     bridge8.style.backgroundColor = "#252a41";
-    number.style.backgroundColor = "#fff";
+    number1.style.color = "#fff";
+    number2.style.color = "#fff";
+    number3.style.color = "#fff";
+    number4.style.color = "#fff";
+    number5.style.color = "#fff";
+    number6.style.color = "#fff";
+    number7.style.color = "#fff";
+    number8.style.color = "#fff";
+    head1.style.color = "#fff";
+    head2.style.color = "#fff";
+    head3.style.color = "#fff";
+    head4.style.color = "#fff";
+    head5.style.color = "#fff";
+    head6.style.color = "#fff";
+    head7.style.color = "#fff";
+    head8.style.color = "#fff";
   } else {
     header.style.backgroundColor = "#f5f7ff";
     body.style.backgroundColor = "#ffffff";
@@ -60,13 +91,29 @@ mySwitch.addEventListener("change", function() {
     youtube.style.color = "#1e202a";
     youtube.style.backgroundColor = "#f0f2fa";
     bridge1.style.backgroundColor = "#f0f2fa";
-    bridge2.style.backgroundColor = "##f0f2fa";
+    bridge2.style.backgroundColor = "#f0f2fa";
     bridge3.style.backgroundColor = "#f0f2fa";
     bridge4.style.backgroundColor = "#f0f2fa";
     bridge5.style.backgroundColor = "#f0f2fa";
     bridge6.style.backgroundColor = "#f0f2fa";
     bridge7.style.backgroundColor = "#f0f2fa";
     bridge8.style.backgroundColor = "#f0f2fa";
+    number1.style.color = "#252a41";
+    number2.style.color = "#252a41";
+    number3.style.color = "#252a41";
+    number4.style.color = "#252a41";
+    number5.style.color = "#252a41";
+    number6.style.color = "#252a41";
+    number7.style.color = "#252a41";
+    number8.style.color = "#252a41";
+    head1.style.color = "#252a41";
+    head2.style.color = "#252a41";
+    head3.style.color = "#252a41";
+    head4.style.color = "#252a41";
+    head5.style.color = "#252a41";
+    head6.style.color = "#252a41";
+    head7.style.color = "#252a41";
+    head8.style.color = "#252a41";
   }
 })
 
