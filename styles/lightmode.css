@@ -45,10 +45,8 @@ header section .switch input {
 header section .slider {
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  height: 22px;
+  width: 48px;
   background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   transition: 0.4s;
   border-radius: 34px;
@@ -206,7 +204,42 @@ header section .dark {
   background-color: transparent;
 }
 
-@media{
-  
+@media(width <=375px){
+  header{
+    height: 22vh;
+  }
+  header section{
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0;
+    
+  }
+  header div{
+    border-bottom: 1px solid rgb(101, 101, 101);
+    padding: 20px;
+  }
+  header section p{
+    margin: 0;
+  }
+  header section .switch{
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  header section .slider{
+    right: 20px;
+  }
+  .section-one, .section-two{
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+  .section-one div h1{
+    font-size: 50px;
+  }
+  .section-two .reaction-section .bridge{
+    grid-template-columns: 1fr;
+  }
 }
 
