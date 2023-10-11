@@ -27,7 +27,7 @@
     }
   }
   .instagram{
-    border-top: linear-gradient(180deg, $LimeGreen, $BrightRed);
+    border-top: $LimeGreen;
     .social-update{
       p{
         color: $LimeGreen;
@@ -51,6 +51,8 @@
     padding: 15px 0;
     background-color: $LightGrayishBlue;
     border-radius: 3px;
+
+
 
     .social-media, .social-update{
       background-color: transparent;

@@ -90,7 +90,7 @@ header section .dark {
   color: hsl(163, 72%, 41%);
 }
 .section-one .instagram {
-  border-top: linear-gradient(180deg, hsl(163, 72%, 41%), hsl(356, 69%, 56%));
+  border-top: hsl(163, 72%, 41%);
 }
 .section-one .instagram .social-update p {
   color: hsl(163, 72%, 41%);
