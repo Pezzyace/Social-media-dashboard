@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
 header {
   height: 32vh;
   width: 100%;
@@ -40,7 +49,7 @@ header section .slider {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsl(230, 22%, 74%);
+  background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -56,7 +65,7 @@ header section .slider:before {
   border-radius: 50%;
 }
 header section input:checked + .slider {
-  background: linear-gradient 180deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%);
+  background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))
 }
 header section input:focus + .slider {
   box-shadow: 0 0 1px hsl(210, 78%, 56%);
@@ -95,6 +104,11 @@ header section .dark {
 .section-one .instagram .social-update p {
   color: hsl(163, 72%, 41%);
 }
+.section-one .instagram {
+  border-top: 3px solid transparent; 
+  border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)); 
+  border-image-slice: 1;
+}
 .section-one .youtube {
   border-top: 3px solid hsl(348, 97%, 39%);
 }
@@ -109,6 +123,9 @@ header section .dark {
   padding: 15px 0;
   background-color: #f0f2fa;
   border-radius: 3px;
+}
+.section-one div:hover{
+  background-color: hsl(228, 30%, 87%);
 }
 .section-one div .social-media, .section-one div .social-update {
   background-color: transparent;
@@ -162,6 +179,9 @@ header section .dark {
   flex-direction: column;
   gap: 10px;
 }
+.section-two .reaction-section .bridge div:hover{
+  background-color: hsl(228, 30%, 87%);
+}
 .section-two .reaction-section .bridge div section {
   display: flex;
   justify-content: space-between;
@@ -171,6 +191,7 @@ header section .dark {
 .section-two .reaction-section .bridge div section .number {
   font-size: 20px;
   font-weight: 700;
+  
 }
 .section-two .reaction-section .bridge div section .green {
   color: hsl(163, 72%, 41%);
@@ -185,13 +206,7 @@ header section .dark {
   background-color: transparent;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media{
+  
 }
 
-body {
-  background-color: #ffffff;
-  font-family: "Inter", sans-serif;
-}/*# sourceMappingURL=styles.css.map */
